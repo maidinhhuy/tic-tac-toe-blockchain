@@ -1,0 +1,31 @@
+{
+  "name": "xo_game",
+  "version": "0.0.0",
+  "description": "database and API for client using xo game",
+  "main": "index.js",
+  "scripts": {
+    "init": "node ./scripts/bootstrap_database.js",
+    "start": "node index.js",
+    "create-player": "node ./scripts/create_player.js"
+  },
+  "dependencies": {
+    "bcrypt": "5.0.0",
+    "bcryptjs": "2.4.3",
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "js-schema": "1.0.1",
+    "jsonwebtoken": "8.5.1",
+    "lodas": "1.2.0",
+    "protobufjs": "6.9.0",
+    "rethinkdb": "2.4.2",
+    "sawtooth-sdk": "1.0.5",
+    "cbor": "5.0.2"
+  },
+  "devDependencies": {
+    "cors": "2.8.5",
+    "nodemo": "1.0.0",
+    "request": "2.88.2",
+    "request-promise-native": "1.0.8",
+    "standard": "14.3.4"
+  }
+}

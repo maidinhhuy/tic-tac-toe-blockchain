@@ -1,0 +1,33 @@
+
+.board {
+  border: 1px solid gray;
+  .row {
+    margin: 0
+  }
+  .item {
+    border: 1px solid gray;
+    height: 150px;
+    line-height: 150px;
+    text-align: center;
+    .X {
+      color: red;
+    }
+    .O {
+      color: blue;
+    }
+    span {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal;
+      font-size: 50px;
+    }
+  }
+}
+
+.label {
+  padding: 10px;
+  font-weight: bold;
+}
+
+@import "~bootstrap/scss/bootstrap";
+@import "~octicons/build/octicons.min";
